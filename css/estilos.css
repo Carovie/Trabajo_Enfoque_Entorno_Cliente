@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Open Sans';
+    background-image: linear-gradient(to bottom, #62d388, white);
+    padding: 2.7rem;
+    color: rgb(82, 71, 71);
+    flex-grow: 1;
+}
+
+.logo{
+    width: 10rem;
+    height: 10rem;
+}
+
+.logo_titulo{
+    display: flex;
+    align-items: center;
+    border: double #55595C 0.35rem;
+}
+
+header nav {
+    position: fixed;
+    margin-left: 0.03rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    display: block;
+    color: #436456;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.6rem;
+    background-color: #dbe0d7;
+    border: solid #55595C 0.1rem;
+}
+
+header nav ul li a:hover {
+    background-color: #116e26;
+    color: white;
+}
+
+button {
+    margin: 5rem 10rem 15rem 10rem;
+    padding: 2rem;
+    background-color: #62d388;
+    border-radius: 0.5rem;
+    width: 20%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.botones {
+    display: flex;
+    justify-content: center; 
+  }
+
+button:hover {
+    background-color: #116e26;
+    color: white;
+    cursor: pointer;
+  }
+
+.texto{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 3rem;
+  }
+
+.pie{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    justify-content: center; 
+    text-align: center;  
+}
+
+footer {
+    background-color: #373A3C;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h4 {
+    color: white;
+}
+
+#tambien {
+    padding-top: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.contacto {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+#politica {
+    color: rgb(216, 33, 146);
+}
+
+#main_formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    background-color: #f0f0f0;
+}
+
+#datos_form {
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.form_control,
+.form_input,
+.form_input__message {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.form_boton {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #62d388;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+.form_boton:hover {
+    background-color: #116e26;
+}
+
+.container-tabla {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 2px black;
+}
+
+th, td {
+    padding: 0.7rem 0.8rem;
+    text-align: center;
+    border-bottom: 0.1rem solid #ddd;
+    border: solid 1px black;
+}
+
+th {
+    background-color: #116e26;
+    color: white;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #62d388;
+}
+
+.botones_formulario {
+    background-color: #dbe0d7;
+    margin: 1px;
+    padding: 0.03rem;
+    border-radius: 0;
+    width: 40%;
+    font-size: 0.8rem;
+}
+
+
+
